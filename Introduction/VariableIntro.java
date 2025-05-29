@@ -3,8 +3,8 @@ package Introduction;
 public class VariableIntro {
 
     public static void main(String[] args) {
-        /**
-        /* To Create a variable:
+        /*
+         * To Create a variable:
          * datatype name = value;
          */
         double salary = 10000.56;
@@ -12,8 +12,8 @@ public class VariableIntro {
 
 
         /*
-        * Casting a vairbale means changing its datatype
-        * * to change a primitive data  type, pu  the new type in ()
+        * Casting a variable means changing its datatype
+        * to change a primitive data  type, put  the new type in ()
         *
          */
         bonus = (int)salary;
