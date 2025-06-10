@@ -29,7 +29,14 @@ public class Lab11avst
 
 
         // Student edits start here - 80 point version
+        for (int i = 2; i < primes.length; i++) {
+            if (primes[i]) {
+                for (int j = i+i; j < primes.length; j=j+i) {
+                    primes[j] = false;
 
+                }
+            }
+        }
         //Student edits end here - 80 point version
     }
 
